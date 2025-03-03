@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+/* .nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+} */
+
+.ant-picker-cell:has(#holidays) {
+  background-color: #d84040c6 !important;
+
+  color: #f8f8f8 !important;
+  padding: "10px" !important;
+
+  & div {
+    background-color: transparent !important;
+    color: #f8f8f8 !important;
+    padding: "10px" !important;
+  }
+}
+
+.ant-picker-cell:has(#event) {
+  background-color: #f9cb43 !important;
+  border: 2px solid #f9cb43;
+  color: #232425 !important;
+
+  & div {
+    background-color: transparent !important;
+    color: #232425 !important;
+  }
+}
+
+.ant-picker-cell:has(#normal) {
+  background-color: #f9cb43 !important;
+  border: 2px solid #f9cb43;
+  color: #232425 !important;
+
+  & div {
+    background-color: transparent !important;
+    color: #232425 !important;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}

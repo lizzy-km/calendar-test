@@ -1,0 +1,27 @@
+{
+  "name": "calendar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@schedule-x/calendar-controls": "^2.21.0",
+    "@schedule-x/events-service": "^2.21.0",
+    "@schedule-x/react": "^2.21.0",
+    "@schedule-x/theme-default": "^2.21.0",
+    "antd": "^5.24.2",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^4.1.0"
+  }
+}
