@@ -6,6 +6,7 @@ const Leaves = ({ leavesData, value }) => {
   return (
     <ul>
       {data?.map((leave) => {
+
         const hasLeave = CheckIsDateEqual(value, leave);
         const list = hasLeave ? <li>{leave.values.name}</li> : <></>;
         return list;

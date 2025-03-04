@@ -1,5 +1,7 @@
 export const CheckIsDateEqual = (cellDate, arrDate) => {
-  const isEqual = cellDate.format("YY-MM-DD") === arrDate.date;
+  console.log(cellDate, arrDate);
+  
+  const isEqual = cellDate?.format("YYYY-MM-DD") === arrDate.date.format("YYYY-MM-DD");
 
   return isEqual;
 };
