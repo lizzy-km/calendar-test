@@ -1,0 +1,11 @@
+{
+    "firebaseConfig": {
+      "apiKey": "AIzaSyBIUKGA_wTZ57l2mjLpKVgD3WyQT6XCBXs",
+      "authDomain": "look-vince.firebaseapp.com",
+      "projectId": "look-vince",
+      "storageBucket": "look-vince.appspot.com",
+      "messagingSenderId": "1001354898081",
+      "appId": "1:1001354898081:web:ad7b211141974cf82fdee0",
+      "vapidKey": "BFQ9OcHuYDpuKy28_PXMY3FRsZa5DOOx9cFUTf0VH2dBTJhH_TFvCkbVwa154J5MNNwYRDhtCcxn9TgcNGTs3mg"
+    }
+  }
